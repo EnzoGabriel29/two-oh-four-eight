@@ -107,6 +107,8 @@ public final class GameScreen extends javax.swing.JFrame {
         this.setValueAtRandomPosition(this.rc.nextItem());
     }
     
+    
+    
     public static void main(String[] args){
         new GameScreen().setVisible(true);
     }
@@ -198,7 +200,6 @@ public final class GameScreen extends javax.swing.JFrame {
         jButton25.setText("jButton15");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setEnabled(false);
 
         btn00.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
         btn00.setEnabled(false);
