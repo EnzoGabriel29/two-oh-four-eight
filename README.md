@@ -1,10 +1,19 @@
 # 2048
 
-Java implementation of 2048 game
+## How to play
 
-## How to use
+On the [Releases](https://github.com/EnzoGabriel29/two-oh-four-eight/releases)
+tab, check for the latest version and download the
+file named `2048.jar` corresponding to this version.
 
-It's a NetBeans project, so you can run by opening NetBeans and importing a
-project or running `GameScreen.java` inside `/src/pkg2048` folder.
+Change your directory to the directory where the file
+was downloaded and run the following command to make the file executable:
 
-![](https://i.imgur.com/s2EhfKj.png)
+    chmod +x 2048.jar
+
+Now, just run it by typing
+
+    ./2048.jar
+
+The game window should appear. You can play by using the arrow keys.
+The [same rules](https://en.wikipedia.org/wiki/2048_(video_game)#Gameplay) still apply.
