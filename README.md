@@ -17,3 +17,9 @@ Now, just run it by typing
 
 The game window should appear. You can play by using the arrow keys.
 The [same rules](https://en.wikipedia.org/wiki/2048_(video_game)#Gameplay) still apply.
+
+## Screenshots
+
+![](http://i.imgur.com/FTYRLNm.png)
+
+![](http://i.imgur.com/Cp1altd.png)
