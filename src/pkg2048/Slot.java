@@ -1,7 +1,9 @@
 package pkg2048;
 
 import java.awt.Color;
+import java.awt.Dimension;
 import java.awt.Font;
+import java.awt.Insets;
 import javax.swing.JButton;
 
 public class Slot {    
@@ -24,12 +26,10 @@ public class Slot {
     }
     
     public static Font getFont(int value){
-        String name = "Dialog";
-        int style = Font.BOLD;
         int numDigits = (int)Math.ceil(Math.log10(value)) + 1;
         int size = 36 - 6*(numDigits-1);
         
-        return new Font(name, style, size);
+        return new Font("Dialog", Font.BOLD, size);
     }
     
     protected JButton button;
@@ -37,6 +37,7 @@ public class Slot {
     
     public Slot(JButton jb){
         this.button = jb;
+        this.button.setBorder(null);
         this.clear();
     }
         
